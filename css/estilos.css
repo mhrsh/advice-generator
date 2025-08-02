@@ -1,0 +1,71 @@
+body {
+    background-color: var(--fundo);
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+}
+
+.card {
+    background-color: var(--cartao);
+    padding: 15px 30px 50px 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.advice-id {
+    color: var(--botao);
+    font-size: 9.6px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 25px;
+}
+
+.advice-quote {
+    color: var(--texto);
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    background-color: var(--botao);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 461px;
+}
+
+.button img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
