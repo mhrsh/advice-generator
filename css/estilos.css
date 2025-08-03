@@ -65,7 +65,19 @@ body {
 }
 
 .button img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     object-fit: cover;
+}
+
+
+@media (min-width: 576px) {
+    .button {
+        position: absolute;
+        top: 559px;
+    }
+
+    .advice-quote {
+        letter-spacing: 2px;
+    }
 }
